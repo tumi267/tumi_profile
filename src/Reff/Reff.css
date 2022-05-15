@@ -1,0 +1,38 @@
+.Reff_contain{
+    display: flex;
+    background-color: black;
+    color: #ffff;
+    
+}
+.Reff_content{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fader{
+    background: black;
+    opacity: 0;
+  }
+.Reff_card{
+    margin: 10px;  
+    animation-name: fadein
+}
+li::before {
+    display: block;
+    content: "";
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 140px;
+  }
+.Reff_title{
+    width: 90%;  
+}
+@keyframes fadeIn {
+    from{
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }

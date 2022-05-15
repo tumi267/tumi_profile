@@ -1,0 +1,34 @@
+.History_contain{
+    display: flex;
+    background-color: black;
+    color: #ffff;
+    
+}
+.History_content{
+    width: 90%;
+}
+.History_edu{
+    display:flex;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.History_edu_card{
+    margin: 6px;
+}
+.History_work{
+    display:flex;
+    flex-wrap:wrap;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+.History_work_card{
+    margin: 6px;
+    width: 300px;
+}
+.History_btn{
+display: flex;
+justify-content: space-evenly;
+}
+.History_title{
+    text-align: center;
+}

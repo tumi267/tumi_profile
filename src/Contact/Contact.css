@@ -1,0 +1,39 @@
+.Contact_contain{
+    display: flex;
+    background-color: black;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/181/149/169/macbook-pro-color-splash-wallpaper-preview.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    color: #ffff;
+}
+.contact_nav_item:hover{
+    color:red;
+}
+.Contact_content{
+    width: 90%;
+}
+.Contact_title1{
+    font-size: 70px;
+    text-align: center;
+}
+.Contact_title2{
+    text-align: center;
+}
+.Contact_name{
+    display: flex;
+    font-size: 70px;
+    text-align: center;  
+}
+.Contact_lastname{
+    font-size: 70px;
+    text-align: center; 
+    margin-top: -15px; 
+}
+.Contact_Title_name{
+    margin: 20px; 
+    margin-top: 0px;
+}
+.Contact_title3{
+    margin-top: 50px;
+    margin-left: 50px;
+}

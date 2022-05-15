@@ -1,0 +1,15 @@
+.Media_contain{
+    display: flex;
+    background-color: black;
+    color: #ffff;
+}
+.Media_content{
+    width: 90%;
+}
+.vids{
+    height: 265px;
+    width: 265px;
+}
+.Media_title{
+    text-align: center;
+}

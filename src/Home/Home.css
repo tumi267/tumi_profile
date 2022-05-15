@@ -1,0 +1,90 @@
+.Home_contain{
+    display: flex;
+    background-color: black;
+    color: #ffff;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+.Home_left{
+    width: 50%; 
+    justify-content: center;
+    padding-top: 10%;
+}
+.Home_right{
+width: 50%;
+background-image: url('https://firebasestorage.googleapis.com/v0/b/profile-78495.appspot.com/o/redbull.jpg?alt=media&token=2ae8a390-1350-489d-9054-2340fd4a4b68');
+background-repeat: no-repeat;
+background-size: 100%,100%;
+background-position: center;
+z-index: 0;
+}
+
+.Namelink{
+    margin-left: 20%;
+    font-weight: 600;
+    font-size: 80px;
+    z-index: 3;
+    text-align: center;
+}
+.Namelink:hover{
+    padding-left: 5%;
+    font-weight: 800;
+    font-size: 90px;
+    z-index: 3;
+    text-align: center;
+}
+.Namelink2{
+    margin-left: 20%;
+    font-weight: 600;
+    font-size: 80px;
+    z-index: 3;
+    color: red;
+    text-align: center;
+}
+.Namelink2:hover{
+    padding-left: 5%;
+    font-weight: 800;
+    font-size: 90px;
+    color: #ffff;
+    z-index: 3;
+    text-align: center;
+}
+.Home_right{
+    animation-name: fade;
+    animation-duration: 4s;
+}
+.infirst{
+    animation-name: in;
+    animation-duration: 2s; 
+}
+.insec{
+    animation-name: intwo;
+    animation-duration: 3s; 
+}
+.inthird{
+    animation-name: inthree;
+    animation-duration: 6s; 
+}
+@keyframes in{
+    from{opacity: 0;
+        margin-left: 600px;}
+    to{margin-left: 0px;} 
+}
+@keyframes intwo{
+    from{opacity: 0;
+        margin-right: 600px;}
+    to{margin-left: 0px;} 
+}
+@keyframes inthree{
+    from{opacity: 0;
+        margin-top: 600px;}
+    to{margin-top: 0px;} 
+}
+@keyframes fade{
+    from{opacity: 0;
+    margin-left: 200px;
+    margin-top: 300px;} 
+    to{opacity: 1;
+        margin-left: 0px;
+        margin-top: 0px;}
+}
