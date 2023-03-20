@@ -1,7 +1,7 @@
 {
   "name": "profile-site",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "homepage": "https://tumi267.github.io/tumi_profile/",
     "@emotion/react": "^11.9.0",
