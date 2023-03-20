@@ -128,12 +128,6 @@ reff:[
         CONTACT:'+34 675 70 3221'
     },
     {
-        COMPANY:'Cape Audio College',
-        NAME:'Gaston',
-        POSITION:'Head lecturer',
-        CONTACT:'+27 84 775 5048'
-    },
-    {
         COMPANY:'Tshepo Sunset Beach',
         NAME:'Steward Matlala',
         POSITION:'Director',
