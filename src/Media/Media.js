@@ -13,7 +13,7 @@ function Media() {
     <div className='Media_content'>
     <div>
       <h1 className='Media_title'>Media </h1>
-      <div>
+      <div className='videos'>
       <video controls className='vids'>
       <source src="https://firebasestorage.googleapis.com/v0/b/profile-78495.appspot.com/o/AXE_VERSION_1.mp4?alt=media&token=66e0aea0-0f94-43aa-8a66-fb7c8f13ffbf" />
       </video>
@@ -39,6 +39,7 @@ function Media() {
     <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
+    <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
     </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
     </div>

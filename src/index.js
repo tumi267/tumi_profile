@@ -7,6 +7,7 @@ import History from './History/History';
 import Reff from './Reff/Reff';
 import About from './About/About'
 import Media from './Media/Media'
+import Sites from './Sites/Sites';
 import './index.css'
 import reportWebVitals from './reportWebVitals';
 
@@ -21,6 +22,7 @@ root.render(
   <Route path='/Reff' element={<Reff/>}/>
   <Route path='/About' element={<About/>}/>
   <Route path='/Media' element={<Media/>}/>
+  <Route path='/Sites' element={<Sites/>}/>
   </Routes>
   </HashRouter>
   </React.StrictMode>

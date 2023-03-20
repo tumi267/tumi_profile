@@ -42,6 +42,7 @@ function Contact() {
     <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
+    <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
     </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
     </div>

@@ -8,21 +8,22 @@
     width: 90%;
     align-content: center;  
 }
-.About_wrap{
-    display: flex;
-}
+
 .About_intrests{  
     border: 1px solid #ffff; 
-    margin: 10px; 
-    
+    width: 35%;
+    margin: 0% auto;
 }
 .About_intrests_items{
-width: 300px;
-display:flex;
-flex-wrap: wrap;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2%;
 }
 .About_intrests_item{
     margin: 10px;
+    width: 39%;
 }
 .About_Title{
     text-align: center;

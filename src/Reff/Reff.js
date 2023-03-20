@@ -19,7 +19,7 @@ useEffect(()=>{},[hov])
     <div className='Reff_content'>
       <div className="Reff_content">
       {info.reff.map((item, i) => (
-        <div className='fader' key={i} style={{ animation: animStr(i) }}>
+        <div className='fader card' key={i} style={{ animation: animStr(i) }}>
           <ReffCard 
           COMPANY={item.COMPANY}
           NAME={item.NAME}
@@ -38,6 +38,7 @@ useEffect(()=>{},[hov])
     <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
+    <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
     </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
     </div>

@@ -2,9 +2,15 @@
     display: flex;
     background-color: black;
     color: #ffff;
+    
 }
 .Media_content{
     width: 90%;
+}
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 .vids{
     height: 265px;
