@@ -1,18 +1,11 @@
 import { Button } from '@mui/material';
 import React, { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom';
 import info from '../Info';
 import './History.css'
 function History() {
-
-  const [hov,setHov]=useState(false);
   const [work,setWork]=useState(false)
   const [edu,setEdu]=useState(false)
-  const nav =useNavigate()
 
-  const changeText=()=>{
-    setHov(!hov)
-}
 const displayWork=()=>{
   setWork(!work)
 }
@@ -51,15 +44,7 @@ const displayedu=()=>{
       </div>:null}
       
     </div>
-    <div className='nav'>
-    {hov===true?<div onMouseLeave={()=>{changeText()}}>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Contact')}}>Contact</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
-    </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
-    </div>
+
     </div>
   )
 }

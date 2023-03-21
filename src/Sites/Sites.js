@@ -1,13 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Site.css'
-import info from '../Info'
-import {useNavigate} from 'react-router-dom'
+
 function Sites() {
-    const [hov,setHov]=useState(false);
-    const nav =useNavigate()
-    const changeText=(e)=>{
-        setHov(!hov)
-    }
+
   return (
     <div >
     <h1 className='header'>Sites</h1>
@@ -34,16 +29,7 @@ function Sites() {
     height='300px'
     ></iframe>
     </div>
-    <div>
-    {hov===true?<div onMouseLeave={()=>{changeText()}}>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/History')}}>History</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
-    </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
-    </div>
+
     </div>
     </div>
   )

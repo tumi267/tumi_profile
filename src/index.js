@@ -8,6 +8,7 @@ import Reff from './Reff/Reff';
 import About from './About/About'
 import Media from './Media/Media'
 import Sites from './Sites/Sites';
+import Nav from './Nav/Nav';
 import './index.css'
 import reportWebVitals from './reportWebVitals';
 
@@ -15,6 +16,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <HashRouter >
+  <Nav/>
   <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/Contact' element={<Contact/>}/>

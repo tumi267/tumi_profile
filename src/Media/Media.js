@@ -1,13 +1,7 @@
-import React, {  useState } from 'react'
-import { useNavigate } from 'react-router-dom';
-import info from '../Info';
+import React from 'react'
 import './Media.css'
 function Media() {
-  const [hov,setHov]=useState(false);
-  const nav =useNavigate()
-  const changeText=()=>{
-    setHov(!hov)
-}
+
   return (
     <div className='Media_contain'>
     <div className='Media_content'>
@@ -33,16 +27,7 @@ function Media() {
 
     </dvi>
     </div>
-    <div className='nav'>
-    {hov===true?<div onMouseLeave={()=>{changeText()}}>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Contact')}}>Contact</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
-    </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
-    </div>
+
     </div>
   )
 }

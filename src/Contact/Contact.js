@@ -3,16 +3,10 @@ import './Contact.css'
 import info from '../Info'
 import PhoneIcon from '@mui/icons-material/Phone';
 import EmailIcon from '@mui/icons-material/Email';
-import {useNavigate} from 'react-router-dom'
 function Contact() {
   const [phone,setPhone]=useState(false);
   const [email,setEmail]=useState(false);
-  const [hov,setHov]=useState(false);
-  const nav =useNavigate()
 
-  const changeText=(e)=>{
-    setHov(!hov)
-}
   useEffect(()=>{},[])
   return (
     <div className='Contact_contain'>
@@ -36,16 +30,7 @@ function Contact() {
       {email===false?<EmailIcon onClick={()=>{setEmail(true)}}/>:<div onClick={()=>{setEmail(false)}}>{info.EMAIL}</div>}
       </div>   
     </div> 
-    <div>
-    {hov===true?<div onMouseLeave={()=>{changeText()}}>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/History')}}>History</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Reff')}}>Reference</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
-    <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
-    </div>:<div onMouseOver={()=>{changeText()}}><h3>{info.NICKNAME}</h3></div>}
-    </div>
+
     
     </div>
   )
