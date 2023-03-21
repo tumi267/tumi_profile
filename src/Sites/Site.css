@@ -1,7 +1,33 @@
 .site_contain{   
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2%;
 }
 .header{
     text-align: center;
+}
+.frame_perant{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    opacity: 0.5;
+    margin-top: -6%;
+    margin-bottom: 10%;
+}
+.frame_perant:hover{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+    margin-top: -6%;
+    margin-bottom: 10%;
+}
+.frame_perant_link{
+color: rgb(249, 0, 0);
+position: relative;
+top: 80%;
+font-size: 2rem;
+background-color: aliceblue;
 }
