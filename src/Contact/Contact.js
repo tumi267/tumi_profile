@@ -19,16 +19,17 @@ function Contact() {
       </div>
     <div>
     <h1 className='Contact_title3'>Contact</h1>
+    <div className='Contact_info'>Get a hold of {info.NICKNAME} @
+      {phone===false?<PhoneIcon onClick={()=>{setPhone(true)}}/>:<div onClick={()=>{setPhone(false)}}>{info.CONTACT_NUMBERS} </div>}
+      {email===false?<EmailIcon onClick={()=>{setEmail(true)}}/>:<div onClick={()=>{setEmail(false)}}>{info.EMAIL}</div>}
+      </div>  
       <div className='Contact_title2'>
       </div>
       <h1 className='Contact_name'>{info.NAMES.map((e,i)=>{return <p key={i} className='Contact_Title_name'>{e}</p>})}</h1>
       <h1 className='Contact_lastname'>{info.SURNAME}</h1>
     </div>
     
-      <div>Get a hold of {info.NICKNAME} @
-      {phone===false?<PhoneIcon onClick={()=>{setPhone(true)}}/>:<div onClick={()=>{setPhone(false)}}>{info.CONTACT_NUMBERS} </div>}
-      {email===false?<EmailIcon onClick={()=>{setEmail(true)}}/>:<div onClick={()=>{setEmail(false)}}>{info.EMAIL}</div>}
-      </div>   
+ 
     </div> 
 
     

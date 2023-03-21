@@ -26,6 +26,7 @@ function Nav() {
     <h3 className='contact_nav_item' onClick={()=>{nav('/Media')}}>Media</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/About')}}>About</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/Sites')}}>Sites</h3>
+    <h3 className='contact_nav_item' onClick={()=>{nav('/Contact')}}>Contact</h3>
     <h3 className='contact_nav_item' onClick={()=>{nav('/')}}>Home</h3>
     </div>
 
