@@ -9,7 +9,7 @@ function Sites() {
     <div className='site_contain'>
    
     <div className='frame_perant' onClick={()=>{
-      window.location.replace("https://tumi267.github.io/panel_beter_exapmle/")
+      window.open("https://tumi267.github.io/panel_beter_exapmle/")
     }}>
     <h2 className='frame_perant_link'>click to see full site</h2>
     <iframe className='site' src="https://tumi267.github.io/panel_beter_exapmle/" 
@@ -19,7 +19,7 @@ function Sites() {
     ></iframe>
     </div>
     <div className='frame_perant' onClick={()=>{
-      window.location.replace("https://tumi267.github.io/barber/")
+      window.open("https://tumi267.github.io/barber/")
     }}>
     <h2 className='frame_perant_link'>click to see full site</h2>
     <iframe className='site' src="https://tumi267.github.io/barber/" 
@@ -29,7 +29,7 @@ function Sites() {
     ></iframe>
     </div>
     <div className='frame_perant' onClick={()=>{
-      window.location.replace("https://tumi267.github.io/jozi/")
+      window.open("https://tumi267.github.io/jozi/")
     }}>
     <h2 className='frame_perant_link'>click to see full site</h2>
     <iframe className='site' src="https://tumi267.github.io/jozi/" 
@@ -39,7 +39,7 @@ function Sites() {
     ></iframe>
     </div>
     <div className='frame_perant' onClick={()=>{
-      window.location.replace("https://tumi267.github.io/tesla-clone/")
+      window.open("https://tumi267.github.io/tesla-clone/")
     }}>
     <h2 className='frame_perant_link'>click to see full site</h2>
     <iframe className='site' src="https://tumi267.github.io/tesla-clone/" 
