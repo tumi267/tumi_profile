@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tumi_profile/static/css/main.44e82db7.css",
-    "main.js": "/tumi_profile/static/js/main.02e3abc5.js",
+    "main.css": "/tumi_profile/static/css/main.f971e83b.css",
+    "main.js": "/tumi_profile/static/js/main.97961558.js",
     "static/js/787.0f8c18f6.chunk.js": "/tumi_profile/static/js/787.0f8c18f6.chunk.js",
     "index.html": "/tumi_profile/index.html",
-    "main.44e82db7.css.map": "/tumi_profile/static/css/main.44e82db7.css.map",
-    "main.02e3abc5.js.map": "/tumi_profile/static/js/main.02e3abc5.js.map",
+    "main.f971e83b.css.map": "/tumi_profile/static/css/main.f971e83b.css.map",
+    "main.97961558.js.map": "/tumi_profile/static/js/main.97961558.js.map",
     "787.0f8c18f6.chunk.js.map": "/tumi_profile/static/js/787.0f8c18f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e82db7.css",
-    "static/js/main.02e3abc5.js"
+    "static/css/main.f971e83b.css",
+    "static/js/main.97961558.js"
   ]
 }
